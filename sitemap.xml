@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://IwoA.github.io/ADR/index.html</loc>
-    <lastmod>2025-02-21T21:00:12.554Z</lastmod>
+    <loc>https://IwoA.github.io/ADR/swirl.html</loc>
+    <lastmod>2025-02-21T21:36:18.078Z</lastmod>
   </url>
   <url>
     <loc>https://IwoA.github.io/ADR/about.html</loc>
-    <lastmod>2025-02-21T21:00:11.374Z</lastmod>
+    <lastmod>2025-02-21T21:36:14.676Z</lastmod>
+  </url>
+  <url>
+    <loc>https://IwoA.github.io/ADR/index.html</loc>
+    <lastmod>2025-02-21T21:36:15.314Z</lastmod>
   </url>
 </urlset>
