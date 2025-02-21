@@ -1,0 +1,5 @@
+---
+title: "O kursie"
+---
+
+Na tej stronie udostępnione są materiały do kursu Analiza Danych w R prowadzonego przeze mnie na Uniwersytecie Ekonomicznym we Wrocławiu.
