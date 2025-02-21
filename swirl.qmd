@@ -1,0 +1,46 @@
+---
+title: "Kursy swirl"
+---
+
+Na tej stronie znajduje się zbiór interaktywnych kursów z podstaw programowania w R do użycia z [pakietem swirl](https://swirlstats.com/).
+
+
+## Należy ukończyć następujące moduły w podanej kolejności:
+
+1. **ADR R Programming**: Podstawy programowania w R
+2. **ADR Getting and Cleaning Data**: Obsługa podstawowych bibliotek do manipulacji danymi
+3. **ADR R Graphic**: Wstęp do wizualizacji w R
+
+## Instrukcja instalacji kursów swirl
+
+1. Zainstalu `swirl`:
+
+```
+install.packages("swirl")
+```
+Jeśli pojawi się okienko z pytaniem "o you want to install from sources the package which needs compilation?" wybierz opcję "Nie".
+
+2. Wpisz w konsoli
+
+``` {r}
+#| eval: false
+
+library(swirl) # Ta komenda wczytuje bibliotekę
+```
+
+``` {r}
+#| eval: false
+
+uninstall_all_courses() # Usuwa wszystkie wbudowane kursy
+```
+
+``` {r}
+#| eval: false
+
+install_course() # Instaluje zapisane kursy
+```
+Zostaniecie poproszeni o wybranie pliku kursu. Pojawi się okienko z możliwością odnalezienia i wybrania właściwego pliku. Może być jednak schowane za oknem RStudio.
+Można zainstalować jeden kurs na raz, więc powtarzajcie ten krok aż zainstalujecie wszystkie kursy.
+
+Następnie wpiszcie `swirl()` w konsoli i **wybierzcie ADR R Programming jako pierwszy kurs**.
+
