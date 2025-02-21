@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Analiza Danych w R",
+    "section": "",
+    "text": "To jest strona kursu Analiza Danych w R"
+  },
+  {
+    "objectID": "index.html#plan-zajęć",
+    "href": "index.html#plan-zajęć",
+    "title": "Analiza Danych w R",
+    "section": "Plan zajęć",
+    "text": "Plan zajęć\n\nWstęp do R. Instalacja środowiska oraz IDE\n\n\nInstalacja R z https://cran.r-project.org/\nInstalacja RStudio z https://www.rstudio.com/products/rstudio/download/\nAlternatywnie zakładanie konta do chmurowej wersji RStudio w posit.cloud\nPraca z RStudio i kodem (projekty, literate programming)\nInstalacja i obsługa swirl\n\n\nKursy swirl\n\n\nPodstawowe komendy i elementy R\nManipulacja danymi\nWprowadzenie do grafiki w R\n\n\nGit i Github\nPraca z plikami i pozyskiwanie danych publicznych (Eurostat, GUS, Gapminder, itp.)\nWizualizacja danych w R\nPraca z tekstem\nPodstawowe analizy statystyczne\nWeb scrapping\nAutomatyzacja i raportowanie z użyciem R"
+  },
+  {
+    "objectID": "index.html#projekty",
+    "href": "index.html#projekty",
+    "title": "Analiza Danych w R",
+    "section": "Projekty",
+    "text": "Projekty\nPrzewidziane są dwa projekty grupowe:\n\nProjekt biznesowy na podstawie dostarczonych danych.\nProjekt dowolny na podstawie wybranych przez siebie danych."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "O kursie",
+    "section": "",
+    "text": "Na tej stronie udostępnione są materiały do kursu Analiza Danych w R prowadzonego przeze mnie na Uniwersytecie Ekonomicznym we Wrocławiu."
+  }
+]
