@@ -11,7 +11,7 @@
     "href": "swirl.html#należy-ukończyć-następujące-moduły-w-podanej-kolejności",
     "title": "Kursy swirl",
     "section": "Należy ukończyć następujące moduły w podanej kolejności:",
-    "text": "Należy ukończyć następujące moduły w podanej kolejności:\n\nADR R Programming: Podstawy programowania w R\nADR Getting and Cleaning Data: Obsługa podstawowych bibliotek do manipulacji danymi\nADR R Graphic: Wstęp do wizualizacji w R"
+    "text": "Należy ukończyć następujące moduły w podanej kolejności:\n\nADR R Programming: Podstawy programowania w R\nADR Getting and Cleaning Data: Podstawy manipulacji danymi\nADR R Graphic: Wprowadzenie do grafiki w R"
   },
   {
     "objectID": "swirl.html#instrukcja-instalacji-kursów-swirl",
@@ -21,11 +21,18 @@
     "text": "Instrukcja instalacji kursów swirl\n\nZainstaluj swirl:\n\ninstall.packages(\"swirl\")\nJeśli pojawi się okienko z pytaniem “o you want to install from sources the package which needs compilation?” wybierz opcję “Nie”.\n\nWpisz w konsoli\n\n\nlibrary(swirl) # Ta komenda wczytuje bibliotekę\n\n\nuninstall_all_courses() # Usuwa wszystkie wbudowane kursy\n\n\ninstall_course() # Instaluje zapisane kursy\n\nZostaniecie poproszeni o wybranie pliku kursu. Pojawi się okienko z możliwością odnalezienia i wybrania właściwego pliku. Może być jednak schowane za oknem RStudio. Można zainstalować jeden kurs na raz, więc powtarzajcie ten krok aż zainstalujecie wszystkie kursy.\nNastępnie wpiszcie swirl() w konsoli i wybierzcie ADR R Programming jako pierwszy kurs."
   },
   {
+    "objectID": "dodatki.html",
+    "href": "dodatki.html",
+    "title": "Materiały dodatkowe",
+    "section": "",
+    "text": "Tutaj będą się pojawiać materiały dodatkowe (linki do przydatnych filmów na YT, blogów, stron itp.)"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "O kursie",
+    "title": "Wizualizacja",
     "section": "",
-    "text": "Na tej stronie udostępnione są materiały do kursu Analiza Danych w R prowadzonego przeze mnie na Uniwersytecie Ekonomicznym we Wrocławiu."
+    "text": "Tutaj będą się pojawiały materiały nt. wizualizacji danych w R."
   },
   {
     "objectID": "index.html",
