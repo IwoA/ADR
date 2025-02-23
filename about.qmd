@@ -1,5 +1,5 @@
 ---
-title: "O kursie"
+title: "Wizualizacja"
 ---
 
-Na tej stronie udostępnione są materiały do kursu Analiza Danych w R prowadzonego przeze mnie na Uniwersytecie Ekonomicznym we Wrocławiu.
+Tutaj będą się pojawiały materiały nt. wizualizacji danych w R.

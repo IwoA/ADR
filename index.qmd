@@ -28,7 +28,7 @@ To jest strona kursu Analiza Danych w R
 1. Wstęp
 - Analiza kompetencji
 - Instalacja środowiska i praca z RStudio i kodem (projekty, literate programming)
-2. Kursy swirl
+2. [Kursy swirl](swirl.qmd)
 - Instalacja i obsługa swirl
 - Podstawowe komendy i elementy R
 - Manipulacja danymi
