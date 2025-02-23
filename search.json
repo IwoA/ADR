@@ -18,7 +18,7 @@
     "href": "swirl.html#instrukcja-instalacji-kursów-swirl",
     "title": "Kursy swirl",
     "section": "Instrukcja instalacji kursów swirl",
-    "text": "Instrukcja instalacji kursów swirl\n\nZainstalu swirl:\n\ninstall.packages(\"swirl\")\nJeśli pojawi się okienko z pytaniem “o you want to install from sources the package which needs compilation?” wybierz opcję “Nie”.\n\nWpisz w konsoli\n\n\nlibrary(swirl) # Ta komenda wczytuje bibliotekę\n\n\nuninstall_all_courses() # Usuwa wszystkie wbudowane kursy\n\n\ninstall_course() # Instaluje zapisane kursy\n\nZostaniecie poproszeni o wybranie pliku kursu. Pojawi się okienko z możliwością odnalezienia i wybrania właściwego pliku. Może być jednak schowane za oknem RStudio. Można zainstalować jeden kurs na raz, więc powtarzajcie ten krok aż zainstalujecie wszystkie kursy.\nNastępnie wpiszcie swirl() w konsoli i wybierzcie ADR R Programming jako pierwszy kurs."
+    "text": "Instrukcja instalacji kursów swirl\n\nZainstaluj swirl:\n\ninstall.packages(\"swirl\")\nJeśli pojawi się okienko z pytaniem “o you want to install from sources the package which needs compilation?” wybierz opcję “Nie”.\n\nWpisz w konsoli\n\n\nlibrary(swirl) # Ta komenda wczytuje bibliotekę\n\n\nuninstall_all_courses() # Usuwa wszystkie wbudowane kursy\n\n\ninstall_course() # Instaluje zapisane kursy\n\nZostaniecie poproszeni o wybranie pliku kursu. Pojawi się okienko z możliwością odnalezienia i wybrania właściwego pliku. Może być jednak schowane za oknem RStudio. Można zainstalować jeden kurs na raz, więc powtarzajcie ten krok aż zainstalujecie wszystkie kursy.\nNastępnie wpiszcie swirl() w konsoli i wybierzcie ADR R Programming jako pierwszy kurs."
   },
   {
     "objectID": "about.html",
@@ -39,7 +39,7 @@
     "href": "index.html#plan-zajęć",
     "title": "Analiza Danych w R",
     "section": "Plan zajęć",
-    "text": "Plan zajęć\n\nWstęp do R. Instalacja środowiska oraz IDE\n\n\nInstalacja R z https://cran.r-project.org/\nInstalacja RStudio z https://www.rstudio.com/products/rstudio/download/\nAlternatywnie zakładanie konta do chmurowej wersji RStudio w posit.cloud\nPraca z RStudio i kodem (projekty, literate programming)\nInstalacja i obsługa swirl\n\n\nKursy swirl\n\n\nPodstawowe komendy i elementy R\nManipulacja danymi\nWprowadzenie do grafiki w R\n\n\nGit i Github\nPraca z plikami i pozyskiwanie danych publicznych (Eurostat, GUS, Gapminder, itp.)\nWizualizacja danych w R\nPraca z tekstem\nPodstawowe analizy statystyczne\nWeb scrapping\nAutomatyzacja i raportowanie z użyciem R"
+    "text": "Plan zajęć\n\nWykłady\n\nWstęp do R.\n\n\nInstalacja R z https://cran.r-project.org/\nInstalacja RStudio z https://www.rstudio.com/products/rstudio/download/\nAlternatywnie zakładanie konta do chmurowej wersji RStudio w posit.cloud\nPraca z RStudio i kodem (projekty, literate programming)\nPrzykładowy kod R\n\n\nPodstawowe analizy statystyczne\nPraca z plikami i pozyskiwanie danych publicznych (Eurostat, GUS, Gapminder, itp.)\nWizualizacja danych w R\nGit i Github\nWeb scrapping\nQuarto - Automatyzacja i raportowanie z użyciem R\nPrezentacje projektów\n\n\n\nĆwiczenia\n\nWstęp\n\n\nAnaliza kompetencji\nInstalacja środowiska i praca z RStudio i kodem (projekty, literate programming)\n\n\nKursy swirl\n\n\nInstalacja i obsługa swirl\nPodstawowe komendy i elementy R\nManipulacja danymi\nWprowadzenie do grafiki w R\n\n\nGit i Github. Tworzenie grup i wybór projektów.\nWizualizacja danych w R\nPraca z tekstem\nPodstawowe analizy statystyczne\nPraca z plikami i pozyskiwanie danych publicznych (Eurostat, GUS, Gapminder, itp.)\nWybór tematów projektów dowolnych\nWeb scrapping\nAutomatyzacja i raportowanie z użyciem R"
   },
   {
     "objectID": "index.html#projekty",
@@ -47,5 +47,12 @@
     "title": "Analiza Danych w R",
     "section": "Projekty",
     "text": "Projekty\nPrzewidziane są dwa projekty grupowe:\n\nProjekt biznesowy na podstawie dostarczonych danych.\nProjekt dowolny na podstawie wybranych przez siebie danych."
+  },
+  {
+    "objectID": "index.html#ćwiczenia-1",
+    "href": "index.html#ćwiczenia-1",
+    "title": "Analiza Danych w R",
+    "section": "Ćwiczenia",
+    "text": "Ćwiczenia\nNa ćwiczeniach będziecie pracować nad projektami i/lub zadaniami dotyczącymi tematu ćwiczeń."
   }
 ]
