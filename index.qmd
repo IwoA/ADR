@@ -7,23 +7,40 @@ To jest strona kursu Analiza Danych w R
 
 ## Plan zajęć
 
-1. Wstęp do R. Instalacja środowiska oraz IDE
+### Wykłady
+
+1. Wstęp do R.
 - Instalacja R z [https://cran.r-project.org/](https://cran.r-project.org/)
 - Instalacja RStudio z [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/)
 - Alternatywnie zakładanie konta do chmurowej wersji RStudio w [posit.cloud](https://posit.cloud/)
 - Praca z RStudio i kodem (projekty, literate programming)
-- Instalacja i obsługa swirl
+- Przykładowy kod R
+2. Podstawowe analizy statystyczne
+3. Praca z plikami i pozyskiwanie danych publicznych (Eurostat, GUS, Gapminder, itp.)
+4. Wizualizacja danych w R
+2. Git i Github
+8. Web scrapping
+9. Quarto - Automatyzacja i raportowanie z użyciem R
+7. Prezentacje projektów
+
+### Ćwiczenia
+
+1. Wstęp
+- Analiza kompetencji
+- Instalacja środowiska i praca z RStudio i kodem (projekty, literate programming)
 2. Kursy swirl
+- Instalacja i obsługa swirl
 - Podstawowe komendy i elementy R
 - Manipulacja danymi
 - Wprowadzenie do grafiki w R
-3. Git i Github
-3. Praca z plikami i pozyskiwanie danych publicznych (Eurostat, GUS, Gapminder, itp.)
+3. Git i Github. Tworzenie grup i wybór projektów.
 4. Wizualizacja danych w R
 5. Praca z tekstem
 6. Podstawowe analizy statystyczne
-7. Web scrapping
-8. Automatyzacja i raportowanie z użyciem R
+3. Praca z plikami i pozyskiwanie danych publicznych (Eurostat, GUS, Gapminder, itp.)
+7. Wybór tematów projektów dowolnych
+8. Web scrapping
+9. Automatyzacja i raportowanie z użyciem R
 
 ## Projekty
 
@@ -31,3 +48,7 @@ Przewidziane są dwa projekty grupowe:
 
 1. Projekt biznesowy na podstawie dostarczonych danych.
 2. Projekt dowolny na podstawie wybranych przez siebie danych.
+
+## Ćwiczenia
+
+Na ćwiczeniach będziecie pracować nad projektami i/lub zadaniami dotyczącymi tematu ćwiczeń. 
