@@ -18,7 +18,7 @@
     "href": "swirl.html#instrukcja-instalacji-kursów-swirl",
     "title": "Kursy swirl",
     "section": "Instrukcja instalacji kursów swirl",
-    "text": "Instrukcja instalacji kursów swirl\n\nZainstaluj swirl:\n\ninstall.packages(\"swirl\")\nJeśli pojawi się okienko z pytaniem “o you want to install from sources the package which needs compilation?” wybierz opcję “Nie”.\n\nWpisz w konsoli\n\n\nlibrary(swirl) # Ta komenda wczytuje bibliotekę\n\n\nuninstall_all_courses() # Usuwa wszystkie wbudowane kursy\n\n\ninstall_course() # Instaluje zapisane kursy\n\nZostaniecie poproszeni o wybranie pliku kursu. Pojawi się okienko z możliwością odnalezienia i wybrania właściwego pliku. Może być jednak schowane za oknem RStudio. Można zainstalować jeden kurs na raz, więc powtarzajcie ten krok aż zainstalujecie wszystkie kursy.\nNastępnie wpiszcie swirl() w konsoli i wybierzcie ADR R Programming jako pierwszy kurs."
+    "text": "Instrukcja instalacji kursów swirl\n\nZainstaluj swirl:\n\n\ninstall.packages(\"swirl\")\n\nJeśli pojawi się okienko z pytaniem “o you want to install from sources the package which needs compilation?” wybierz opcję “Nie”.\n\nWpisz w konsoli\n\n\nlibrary(swirl) # Ta komenda wczytuje bibliotekę\n\n\nuninstall_all_courses() # Usuwa wszystkie wbudowane kursy\n\n\ninstall_course() # Instaluje zapisane kursy\n\nZostaniecie poproszeni o wybranie pliku kursu. Pojawi się okienko z możliwością odnalezienia i wybrania właściwego pliku. Może być jednak schowane za oknem RStudio. Można zainstalować jeden kurs na raz, więc powtarzajcie ten krok aż zainstalujecie wszystkie kursy.\nNastępnie wpiszcie swirl() w konsoli i wybierzcie ADR R Programming jako pierwszy kurs."
   },
   {
     "objectID": "dodatki.html",
