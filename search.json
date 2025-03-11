@@ -7,11 +7,11 @@
     "text": "Na tej stronie znajduje się zbiór interaktywnych kursów z podstaw programowania w R do użycia z pakietem swirl."
   },
   {
-    "objectID": "swirl.html#należy-ukończyć-następujące-moduły-w-podanej-kolejności",
-    "href": "swirl.html#należy-ukończyć-następujące-moduły-w-podanej-kolejności",
+    "objectID": "swirl.html#dostępne-kursy",
+    "href": "swirl.html#dostępne-kursy",
     "title": "Kursy swirl",
-    "section": "Należy ukończyć następujące moduły w podanej kolejności:",
-    "text": "Należy ukończyć następujące moduły w podanej kolejności:\n\nADR R Programming: Podstawy programowania w R\nADR Getting and Cleaning Data: Podstawy manipulacji danymi\nADR R Graphic: Wprowadzenie do grafiki w R"
+    "section": "Dostępne kursy",
+    "text": "Dostępne kursy\nNależy ukończyć następujące kursy w podanej kolejności:\n\nADR R Programming: Podstawy programowania w R\nADR Getting and Cleaning Data: Podstawy manipulacji danymi\nADR R Graphic: Wprowadzenie do grafiki w R"
   },
   {
     "objectID": "swirl.html#instrukcja-instalacji-kursów-swirl",
