@@ -5,7 +5,9 @@ title: "Kursy swirl"
 Na tej stronie znajduje się zbiór interaktywnych kursów z podstaw programowania w R do użycia z [pakietem swirl](https://swirlstats.com/).
 
 
-## Należy ukończyć następujące moduły w podanej kolejności:
+## Dostępne kursy
+
+**Należy ukończyć następujące kursy w podanej kolejności:**
 
 1. [**ADR R Programming**](https://github.com/IwoA/swirl_courses/raw/refs/heads/master/ADR_R_Programming.swc): Podstawy programowania w R
 2. [**ADR Getting and Cleaning Data**](https://github.com/IwoA/swirl_courses/raw/refs/heads/master/ADR_Getting_and_Cleaning_Data.swc): Podstawy manipulacji danymi
