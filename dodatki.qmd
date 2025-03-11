@@ -3,3 +3,21 @@ title: "Materiały dodatkowe"
 ---
 
 Tutaj będą się pojawiać materiały dodatkowe (linki do przydatnych filmów na YT, blogów, stron itp.)
+
+## Analiza danych w języku R
+
+Źródło: [Blog informatykzakladowy.pl](https://informatykzakladowy.pl)
+
+• [**Odcinek 1** – wprowadzenie do tematu](https://informatykzakladowy.pl/analiza-danych-w-jezyku-r-odcinek-1/)\
+• [**Odcinek 2** – ramka danych](https://informatykzakladowy.pl/analiza-danych-w-jezyku-r-odcinek-2/)\
+• [**Odcinek 3** – wykresy](https://informatykzakladowy.pl/analiza-danych-w-jezyku-r-odcinek-3/)\
+• [**Odcinek 4** – odczyt i zapis plików XLSX](https://informatykzakladowy.pl/analiza-danych-w-jezyku-r-odcinek-4/)\
+• [**Odcinek 5** – daty, godziny i strefy czasowe](https://informatykzakladowy.pl/analiza-danych-w-jezyku-r-odcinek-5/)\
+• [**Odcinek 6** – dostosowanie ramki danych](https://informatykzakladowy.pl/analiza-danych-w-jezyku-r-odcinek-6/)\
+• [**Odcinek 7** – tworzymy animację z serii wykresów](https://informatykzakladowy.pl/analiza-danych-w-jezyku-r-odcinek-7/)\
+• [**Odcinek 8** – tworzenie i kasowanie wierszy i kolumn](https://informatykzakladowy.pl/analiza-danych-w-jezyku-r-odcinek-8/)\
+• [**Odcinek 9** – agregacje, grupowanie i podsumowania](https://informatykzakladowy.pl/analiza-danych-w-jezyku-r-odcinek-9/)\
+• [**Odcinek 10** – analiza szeregów czasowych, średnia krocząca](https://informatykzakladowy.pl/analiza-danych-w-jezyku-r-odcinek-10/)\
+• [**Odcinek 11** – łączenie ramek danych](https://informatykzakladowy.pl/analiza-danych-w-jezyku-r-odcinek-11/)\
+• [**Odcinek 12** – szablony prezentacji w RMarkdown](https://informatykzakladowy.pl/analiza-danych-w-jezyku-r-odcinek-12/)\
+• [**Epilog** – dla tych, którzy chcą ale nie mogą](https://informatykzakladowy.pl/analiza-danych-w-jezyku-r-epilog/)
