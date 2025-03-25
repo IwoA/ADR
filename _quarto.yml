@@ -10,6 +10,7 @@ website:
       - swirl.qmd
       - about.qmd
       - dodatki.qmd
+      - github.qmd
 
 format:
   html:
