@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://IwoA.github.io/ADR/swirl.html</loc>
-    <lastmod>2025-03-17T15:38:08.965Z</lastmod>
+    <lastmod>2025-03-25T22:52:21.721Z</lastmod>
   </url>
   <url>
-    <loc>https://IwoA.github.io/ADR/dodatki.html</loc>
-    <lastmod>2025-03-17T15:38:05.607Z</lastmod>
+    <loc>https://IwoA.github.io/ADR/github.html</loc>
+    <lastmod>2025-03-25T22:52:18.368Z</lastmod>
   </url>
   <url>
     <loc>https://IwoA.github.io/ADR/about.html</loc>
-    <lastmod>2025-03-17T15:38:04.975Z</lastmod>
+    <lastmod>2025-03-25T22:52:17.254Z</lastmod>
+  </url>
+  <url>
+    <loc>https://IwoA.github.io/ADR/dodatki.html</loc>
+    <lastmod>2025-03-25T22:52:17.808Z</lastmod>
   </url>
   <url>
     <loc>https://IwoA.github.io/ADR/index.html</loc>
-    <lastmod>2025-03-17T15:38:06.322Z</lastmod>
+    <lastmod>2025-03-25T22:52:19.012Z</lastmod>
   </url>
 </urlset>

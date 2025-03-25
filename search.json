@@ -21,6 +21,27 @@
     "text": "Instrukcja instalacji kursów swirl\n\nZainstaluj swirl:\n\n\ninstall.packages(\"swirl\")\n\nJeśli pojawi się okienko z pytaniem “o you want to install from sources the package which needs compilation?” wybierz opcję “Nie”.\n\nWpisz w konsoli\n\n\nlibrary(swirl) # Ta komenda wczytuje bibliotekę\n\n\nuninstall_all_courses() # Usuwa wszystkie wbudowane kursy\n\n\ninstall_course() # Instaluje zapisane kursy\n\nZostaniecie poproszeni o wybranie pliku kursu. Pojawi się okienko z możliwością odnalezienia i wybrania właściwego pliku. Może być jednak schowane za oknem RStudio. Można zainstalować jeden kurs na raz, więc powtarzajcie ten krok aż zainstalujecie wszystkie kursy.\nNastępnie wpiszcie swirl() w konsoli i wybierzcie ADR R Programming jako pierwszy kurs."
   },
   {
+    "objectID": "github.html",
+    "href": "github.html",
+    "title": "Git i Github",
+    "section": "",
+    "text": "Łączenie z Githubem\nPo utworzeniu swojej gałęzi (branch) możemy tworzyć nowe pliki i zmieniać dotychczasowe. Jednak aby wysłać zmiany do Githuba trzeba je najpierw commitować a następnie “wypchnąć” komendą push.\nŻeby móc commitować (czyli zatwierdzać zmiany) trzeba najpierw podać swoje dane wpisując następujące komendy w TERMINALU: git config --global user.email \"you@example.com\" git config --global user.name \"Your Name\"\nRobi się to tylko raz. Maila najlepiej podać takiego samego jak na Githubie.\nPo utworzeniu własnej gałęzi przyciski pull i push w RStudio są wyszarzone i nie działają. Dlatego w terminalu należy wpisać komendę git push i zatwierdzić enterem.\nPojawi się błąd “fatal: The current branch test has no upstream branch.” Wraz z instrukcją co robić. Zamiast tej wskazówki należy wpisać komendę git config --global push.default current.\nNastępnie wpisujemy ponownie git push. Tym razem pojawiają się pytania o nazwę użytkownika i hasło do Githuba. Podajemy je oczywiście.\nNiemniej pojawia się błąd “fatal: Authentication failed for ’https://github.com/…” Aby rozwiązać problem postępujemy następująco:\n\nInstalujemy pakiet usethis: install.packages(‘usethis’)\nŁadujemy bibliotekę do pamięci: library(usethis)\nUżywamy funkcji create_github_token()\nOtwiera się okno githuba w przeglądarce z pytaniem o hasło, które podajemy.\nWypełniamy pola:\n\n\nNote - wpisujemy do czego będziemy używać tokena (np. projekt ADR).\nZaznaczamy jak długo ma być ważny: Expiration, najlepiej 90 dni.\nKlikamy zielony przycisk Generate token.\nKopiujemy wygenerowany token do schowka ale strony jeszcze nie zamykamy.\nW konsoli RStudio wpisujemy gitcreds::gitcreds_set(). Pojawi się prośba o podanie tokena więc wklejamy skopiowany token.\n\nW terminalu wpisujemy po raz kolejny git push. Tym razem powinno zadziałać.\nJak zadziała to zamykamy stronę z tokenem. Niestety przyciski push i pull dalej nie działają więc trzeba używać terminala. Na szczęście przycisk commit działa.\nDla przypomnienia:\n\ngit pull - ściąga zmiany z Githuba. Robimy to zawsze przed zaczęciem pracy.\ngit add . - dodaje wszystkie zmiany do commita. Można też podać nazwę pliku zamiast kropki. lub skorzystać z zakładki Git w RStudio.\ngit commit -m \"nazwa commita\" - zatwierdza zmiany. Nazwa commita powinna być krótka i zwięzła. Można też skorzystać z przycisku commit w zakładce Git w RStudio.\ngit push - wysyła zmiany na Githuba."
+  },
+  {
+    "objectID": "github.html#instrukcja-połączenia-z-githubem",
+    "href": "github.html#instrukcja-połączenia-z-githubem",
+    "title": "Git i Github",
+    "section": "",
+    "text": "Łączenie z Githubem\nPo utworzeniu swojej gałęzi (branch) możemy tworzyć nowe pliki i zmieniać dotychczasowe. Jednak aby wysłać zmiany do Githuba trzeba je najpierw commitować a następnie “wypchnąć” komendą push.\nŻeby móc commitować (czyli zatwierdzać zmiany) trzeba najpierw podać swoje dane wpisując następujące komendy w TERMINALU: git config --global user.email \"you@example.com\" git config --global user.name \"Your Name\"\nRobi się to tylko raz. Maila najlepiej podać takiego samego jak na Githubie.\nPo utworzeniu własnej gałęzi przyciski pull i push w RStudio są wyszarzone i nie działają. Dlatego w terminalu należy wpisać komendę git push i zatwierdzić enterem.\nPojawi się błąd “fatal: The current branch test has no upstream branch.” Wraz z instrukcją co robić. Zamiast tej wskazówki należy wpisać komendę git config --global push.default current.\nNastępnie wpisujemy ponownie git push. Tym razem pojawiają się pytania o nazwę użytkownika i hasło do Githuba. Podajemy je oczywiście.\nNiemniej pojawia się błąd “fatal: Authentication failed for ’https://github.com/…” Aby rozwiązać problem postępujemy następująco:\n\nInstalujemy pakiet usethis: install.packages(‘usethis’)\nŁadujemy bibliotekę do pamięci: library(usethis)\nUżywamy funkcji create_github_token()\nOtwiera się okno githuba w przeglądarce z pytaniem o hasło, które podajemy.\nWypełniamy pola:\n\n\nNote - wpisujemy do czego będziemy używać tokena (np. projekt ADR).\nZaznaczamy jak długo ma być ważny: Expiration, najlepiej 90 dni.\nKlikamy zielony przycisk Generate token.\nKopiujemy wygenerowany token do schowka ale strony jeszcze nie zamykamy.\nW konsoli RStudio wpisujemy gitcreds::gitcreds_set(). Pojawi się prośba o podanie tokena więc wklejamy skopiowany token.\n\nW terminalu wpisujemy po raz kolejny git push. Tym razem powinno zadziałać.\nJak zadziała to zamykamy stronę z tokenem. Niestety przyciski push i pull dalej nie działają więc trzeba używać terminala. Na szczęście przycisk commit działa.\nDla przypomnienia:\n\ngit pull - ściąga zmiany z Githuba. Robimy to zawsze przed zaczęciem pracy.\ngit add . - dodaje wszystkie zmiany do commita. Można też podać nazwę pliku zamiast kropki. lub skorzystać z zakładki Git w RStudio.\ngit commit -m \"nazwa commita\" - zatwierdza zmiany. Nazwa commita powinna być krótka i zwięzła. Można też skorzystać z przycisku commit w zakładce Git w RStudio.\ngit push - wysyła zmiany na Githuba."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Wizualizacja",
+    "section": "",
+    "text": "Tutaj będą się pojawiały materiały nt. wizualizacji danych w R."
+  },
+  {
     "objectID": "dodatki.html",
     "href": "dodatki.html",
     "title": "Materiały dodatkowe",
@@ -33,13 +54,6 @@
     "title": "Materiały dodatkowe",
     "section": "Analiza danych w języku R",
     "text": "Analiza danych w języku R\nŹródło: Blog informatykzakladowy.pl\n• Odcinek 1 – wprowadzenie do tematu\n• Odcinek 2 – ramka danych\n• Odcinek 3 – wykresy\n• Odcinek 4 – odczyt i zapis plików XLSX\n• Odcinek 5 – daty, godziny i strefy czasowe\n• Odcinek 6 – dostosowanie ramki danych\n• Odcinek 7 – tworzymy animację z serii wykresów\n• Odcinek 8 – tworzenie i kasowanie wierszy i kolumn\n• Odcinek 9 – agregacje, grupowanie i podsumowania\n• Odcinek 10 – analiza szeregów czasowych, średnia krocząca\n• Odcinek 11 – łączenie ramek danych\n• Odcinek 12 – szablony prezentacji w RMarkdown\n• Epilog – dla tych, którzy chcą ale nie mogą"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Wizualizacja",
-    "section": "",
-    "text": "Tutaj będą się pojawiały materiały nt. wizualizacji danych w R."
   },
   {
     "objectID": "index.html",
