@@ -43,7 +43,7 @@ Jak zadziała to zamykamy stronę z tokenem. Niestety przyciski push i pull dale
 
 Dla przypomnienia:
 
-- `git pull` - ściąga zmiany z Githuba. Robimy to zawsze przed zaczęciem pracy.
+- `git pull` - ściąga zmiany z Githuba. Robimy to zawsze przed zaczęciem pracy. Jeśli pracujecie na własnej gałęzi to trzeba wpisać `git pull origin nazwa_gałęzi`.
 - `git add .` - dodaje wszystkie zmiany do commita. Można też podać nazwę pliku zamiast kropki. lub skorzystać z zakładki Git w RStudio.
 - `git commit -m "nazwa commita"` - zatwierdza zmiany. Nazwa commita powinna być krótka i zwięzła. Można też skorzystać z przycisku commit w zakładce Git w RStudio.
 - `git push` - wysyła zmiany na Githuba.
