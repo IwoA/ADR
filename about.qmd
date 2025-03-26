@@ -2,4 +2,35 @@
 title: "Wizualizacja"
 ---
 
-Tutaj będą się pojawiały materiały nt. wizualizacji danych w R.
+[The R Graph Gallery](https://r-graph-gallery.com/) - strona z przykładami wizualizacji w R. Zawiera przydatną klasyfikację wykresów ze względu na ich wykorzystanie oraz kod do ich generowania!
+
+## Specjalnie polecane na początek
+
+-  [esquisse](https://rdrr.io/cran/esquisse/f/vignettes/get-started.Rmd)  A 'shiny' gadget to create 'ggplot2' figures interactively with drag-and-drop
+-  [GWalkR](https://github.com/Kanaries/GWalkR) GWalkR: Your One-Stop R Package for Exploratory Data Analysis with Visualization. 
+
+## Przydatne pakiety
+
+- [ggwaffle](https://liamgilbey.github.io/ggwaffle/) : Creating waffle charts in a ggplot friendly way
+- [treemapify](http://wilkox.org/treemapify/) : Draw treemaps in ggplot2
+- [gghighlight](https://github.com/yutannihilation/gghighlight) : Highlight points and lines in ggplot2
+- [ggtext](https://github.com/wilkelab/ggtext) : Improved text rendering support for ggplot2
+ [ggrepel](https://ggrepel.slowkow.com/) : Repel overlapping text labels away from each other
+- [hrbrthemes](https://github.com/hrbrmstr/hrbrthemes) : Opinionated, typographic-centric ggplot2 themes and theme components
+- [gganimate](https://gganimate.com/) : A Grammar of Animated Graphics
+- [ggbump](https://github.com/davidsjoberg/ggbump) : A geom for ggplot to create bump plots
+- [patchwork](https://patchwork.data-imaginist.com/) : The Composer of ggplots
+
+## Interaktywne wykresy
+
+- [plotly](https://github.com/ropensci/plotly) : An interactive graphing library for R
+- [echarts4r](https://echarts4r.john-coene.com/) Library based on the echarts.js 
+- [highcharter](https://jkunst.com/highcharter/) Library based on Highcharts
+- [ggiraph](https://davidgohel.github.io/ggiraph/) : Make 'ggplot' Graphics Interactive
+   
+## Książki o wizualizacji danych w R
+
+-  [Data Visualization: A practical introduction](http://socviz.co/)
+-  [Data Visualization with R](https://rkabacoff.github.io/datavis/)
+-  [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/)
+-  [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)

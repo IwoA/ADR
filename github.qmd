@@ -2,6 +2,10 @@
 title: "Git i Github"
 ---
 
+## Strona o pracy z gitem i Githubem w R
+
+[Happy Git and GitHub for the useR](https://happygitwithr.com)
+
 ## Instrukcja połączenia z Githubem
 
 Łączenie z Githubem
