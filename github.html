@@ -151,16 +151,18 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="instrukcja-połączenia-z-githubem" class="level2">
 <h2 class="anchored" data-anchor-id="instrukcja-połączenia-z-githubem">Instrukcja połączenia z Githubem</h2>
-<p>Łączenie z Githubem</p>
+<p>Łączenie z Githubem po utworzeniu gałęzi (branch).</p>
 <p>Po utworzeniu swojej gałęzi (branch) możemy tworzyć nowe pliki i zmieniać dotychczasowe. Jednak aby wysłać zmiany do Githuba trzeba je najpierw commitować a następnie “wypchnąć” komendą push.</p>
-<p>Żeby móc commitować (czyli zatwierdzać zmiany) trzeba najpierw podać swoje dane wpisując następujące komendy w TERMINALU: <code>git config --global user.email "you@example.com"</code> <code>git config --global user.name "Your Name"</code></p>
+<p>Żeby móc commitować (czyli zatwierdzać zmiany) trzeba najpierw podać swoje dane wpisując następujące komendy w TERMINALU:</p>
+<p><code>git config --global user.email "you@example.com"</code></p>
+<p><code>git config --global user.name "Your Name"</code></p>
 <p>Robi się to tylko raz. Maila najlepiej podać takiego samego jak na Githubie.</p>
 <p>Po utworzeniu własnej gałęzi przyciski <code>pull</code> i <code>push</code> w RStudio są wyszarzone i nie działają. Dlatego w terminalu należy wpisać komendę <code>git push</code> i zatwierdzić enterem.</p>
-<p>Pojawi się błąd “fatal: The current branch test has no upstream branch.” Wraz z instrukcją co robić. Zamiast tej wskazówki należy wpisać komendę <code>git config --global push.default current</code>.</p>
+<p>Pojawi się błąd “<em>fatal: The current branch test has no upstream branch.</em>” Wraz z instrukcją co robić. <strong>Zamiast tej wskazówki</strong> należy wpisać komendę <code>git config --global push.default current</code>.</p>
 <p>Następnie wpisujemy ponownie <code>git push</code>. Tym razem pojawiają się pytania o nazwę użytkownika i hasło do Githuba. Podajemy je oczywiście.</p>
 <p>Niemniej pojawia się błąd “fatal: Authentication failed for ’https://github.com/…” Aby rozwiązać problem postępujemy następująco:</p>
 <ol type="1">
-<li>Instalujemy pakiet usethis: <code>install.packages(‘usethis’)</code></li>
+<li>W <strong>konsoli</strong> RStudio instalujemy pakiet usethis: <code>install.packages(‘usethis’)</code></li>
 <li>Ładujemy bibliotekę do pamięci: <code>library(usethis)</code></li>
 <li>Używamy funkcji <code>create_github_token()</code></li>
 <li>Otwiera się okno githuba w przeglądarce z pytaniem o hasło, które podajemy.</li>
@@ -171,9 +173,9 @@ ul.task-list li input[type="checkbox"] {
 <li>Zaznaczamy jak długo ma być ważny: Expiration, najlepiej 90 dni.</li>
 <li>Klikamy zielony przycisk <code>Generate token</code>.</li>
 <li>Kopiujemy wygenerowany token do schowka ale strony jeszcze nie zamykamy.</li>
-<li>W konsoli RStudio wpisujemy <code>gitcreds::gitcreds_set()</code>. Pojawi się prośba o podanie tokena więc wklejamy skopiowany token.</li>
+<li>Wpisujemy <code>gitcreds::gitcreds_set()</code>. Pojawi się prośba o podanie tokena więc wklejamy skopiowany token.</li>
 </ul>
-<p>W terminalu wpisujemy po raz kolejny <code>git push</code>. Tym razem powinno zadziałać.</p>
+<p>W <strong>terminalu</strong> wpisujemy po raz kolejny <code>git push</code>. Tym razem powinno zadziałać.</p>
 <p>Jak zadziała to zamykamy stronę z tokenem. Niestety przyciski push i pull dalej nie działają więc trzeba używać terminala. Na szczęście przycisk commit działa.</p>
 <p>Dla przypomnienia:</p>
 <ul>
