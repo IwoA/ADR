@@ -9,46 +9,41 @@ To jest strona kursu Analiza Danych w R
 
 ### Wykłady
 
-1. Wstęp do R.
+1. Anatomia EDA – czyli jak rozmawiać z danymi
+2. Wstęp do R.
 - Instalacja R z [https://cran.r-project.org/](https://cran.r-project.org/)
 - Instalacja RStudio z [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/)
 - Alternatywnie zakładanie konta do chmurowej wersji RStudio w [posit.cloud](https://posit.cloud/)
 - Praca z RStudio i kodem (projekty, literate programming)
 - Przykładowy kod R
-2. Podstawowe analizy statystyczne
 3. Praca z plikami i pozyskiwanie danych publicznych (Eurostat, GUS, Gapminder, itp.)
-4. Wizualizacja danych w R
-2. Git i Github
-8. Web scrapping
-9. Quarto - Automatyzacja i raportowanie z użyciem R
-7. Prezentacje projektów
+4. Podstawowe analizy statystyczne
+5. Wizualizacja danych w R
+6. Web scrapping
+7. Quarto - Automatyzacja i raportowanie z użyciem R
+8. Prezentacje projektów
 
 ### Ćwiczenia
 
 1. Wstęp
-- Analiza kompetencji
 - Instalacja środowiska i praca z RStudio i kodem (projekty, literate programming)
 2. [Kursy swirl](swirl.qmd)
 - Instalacja i obsługa swirl
 - Podstawowe komendy i elementy R
 - Manipulacja danymi
 - Wprowadzenie do grafiki w R
-3. Git i Github. Tworzenie grup i wybór projektów.
-4. Wizualizacja danych w R
-5. Praca z tekstem
-6. Podstawowe analizy statystyczne
-3. Praca z plikami i pozyskiwanie danych publicznych (Eurostat, GUS, Gapminder, itp.)
-7. Wybór tematów projektów dowolnych
+3. Prezentacja danych 99bikers. Praca z różnymi źródłami danych.
+4. Czyszczenie danych. Praca z tekstem.
+5. Podstawowe analizy statystyczne
+6. Wizualizacja danych w R
+7. Wybór tematów projektów dowolnych. Praca z Gitem i Githubem.
 8. Web scrapping
 9. Automatyzacja i raportowanie z użyciem R
 
 ## Projekty
 
-Przewidziane są dwa projekty grupowe:
+Dla chętnych przewidzany jest projekt. Może mieć jedną z dwóch form:
 
 1. Projekt biznesowy na podstawie dostarczonych danych.
 2. Projekt dowolny na podstawie wybranych przez siebie danych.
 
-## Ćwiczenia
-
-Na ćwiczeniach będziecie pracować nad projektami i/lub zadaniami dotyczącymi tematu ćwiczeń. 
