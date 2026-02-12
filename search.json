@@ -102,20 +102,13 @@
     "href": "index.html#plan-zajęć",
     "title": "Analiza Danych w R",
     "section": "Plan zajęć",
-    "text": "Plan zajęć\n\nWykłady\n\nWstęp do R.\n\n\nInstalacja R z https://cran.r-project.org/\nInstalacja RStudio z https://www.rstudio.com/products/rstudio/download/\nAlternatywnie zakładanie konta do chmurowej wersji RStudio w posit.cloud\nPraca z RStudio i kodem (projekty, literate programming)\nPrzykładowy kod R\n\n\nPodstawowe analizy statystyczne\nPraca z plikami i pozyskiwanie danych publicznych (Eurostat, GUS, Gapminder, itp.)\nWizualizacja danych w R\nGit i Github\nWeb scrapping\nQuarto - Automatyzacja i raportowanie z użyciem R\nPrezentacje projektów\n\n\n\nĆwiczenia\n\nWstęp\n\n\nAnaliza kompetencji\nInstalacja środowiska i praca z RStudio i kodem (projekty, literate programming)\n\n\nKursy swirl\n\n\nInstalacja i obsługa swirl\nPodstawowe komendy i elementy R\nManipulacja danymi\nWprowadzenie do grafiki w R\n\n\nGit i Github. Tworzenie grup i wybór projektów.\nWizualizacja danych w R\nPraca z tekstem\nPodstawowe analizy statystyczne\nPraca z plikami i pozyskiwanie danych publicznych (Eurostat, GUS, Gapminder, itp.)\nWybór tematów projektów dowolnych\nWeb scrapping\nAutomatyzacja i raportowanie z użyciem R"
+    "text": "Plan zajęć\n\nWykłady\n\nAnatomia EDA – czyli jak rozmawiać z danymi\nWstęp do R.\n\n\nInstalacja R z https://cran.r-project.org/\nInstalacja RStudio z https://www.rstudio.com/products/rstudio/download/\nAlternatywnie zakładanie konta do chmurowej wersji RStudio w posit.cloud\nPraca z RStudio i kodem (projekty, literate programming)\nPrzykładowy kod R\n\n\nPraca z plikami i pozyskiwanie danych publicznych (Eurostat, GUS, Gapminder, itp.)\nPodstawowe analizy statystyczne\nWizualizacja danych w R\nWeb scrapping\nQuarto - Automatyzacja i raportowanie z użyciem R\nPrezentacje projektów\n\n\n\nĆwiczenia\n\nWstęp\n\n\nInstalacja środowiska i praca z RStudio i kodem (projekty, literate programming)\n\n\nKursy swirl\n\n\nInstalacja i obsługa swirl\nPodstawowe komendy i elementy R\nManipulacja danymi\nWprowadzenie do grafiki w R\n\n\nPrezentacja danych 99bikers. Praca z różnymi źródłami danych.\nCzyszczenie danych. Praca z tekstem.\nPodstawowe analizy statystyczne\nWizualizacja danych w R\nWybór tematów projektów dowolnych. Praca z Gitem i Githubem.\nWeb scrapping\nAutomatyzacja i raportowanie z użyciem R"
   },
   {
     "objectID": "index.html#projekty",
     "href": "index.html#projekty",
     "title": "Analiza Danych w R",
     "section": "Projekty",
-    "text": "Projekty\nPrzewidziane są dwa projekty grupowe:\n\nProjekt biznesowy na podstawie dostarczonych danych.\nProjekt dowolny na podstawie wybranych przez siebie danych."
-  },
-  {
-    "objectID": "index.html#ćwiczenia-1",
-    "href": "index.html#ćwiczenia-1",
-    "title": "Analiza Danych w R",
-    "section": "Ćwiczenia",
-    "text": "Ćwiczenia\nNa ćwiczeniach będziecie pracować nad projektami i/lub zadaniami dotyczącymi tematu ćwiczeń."
+    "text": "Projekty\nDla chętnych przewidzany jest projekt. Może mieć jedną z dwóch form:\n\nProjekt biznesowy na podstawie dostarczonych danych.\nProjekt dowolny na podstawie wybranych przez siebie danych."
   }
 ]
