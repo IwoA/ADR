@@ -34,9 +34,9 @@ To jest strona kursu Analiza Danych w R
 - Wprowadzenie do grafiki w R
 3. Praca z różnymi źródłami danych.
 4. Analiza indywidualnych zmiennych.
-5. Czyszczenie danych. Praca z tekstem.
+5. Czyszczenie danych. Praca z tekstem i z datami.
 6. Wizualizacja danych w R.
-7. Analiza relacji między zmiennymi
+7. Analiza relacji między zmiennymi.
 8. Wybór tematów projektów dowolnych. Praca z Gitem i Githubem.
 9. Automatyzacja i raportowanie z użyciem R
 10. Praca nad projektami
