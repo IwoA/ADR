@@ -9,13 +9,13 @@ To jest strona kursu Analiza Danych w R
 
 ### Wykłady
 
+1. Anatomia EDA (Exploratory Data Analysis) – czyli jak rozmawiać z danymi
 2. Wstęp do R.
 - Instalacja R z [https://cran.r-project.org/](https://cran.r-project.org/)
 - Instalacja RStudio z [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/)
 - Alternatywnie zakładanie konta do chmurowej wersji RStudio w [posit.cloud](https://posit.cloud/)
 - Praca z RStudio i kodem (projekty, literate programming)
 - Przykładowy kod R
-1. Anatomia EDA (Exploratory Data Analysis) – czyli jak rozmawiać z danymi
 3. Praca z plikami i pozyskiwanie danych publicznych (Eurostat, GUS, Gapminder, itp.)
 4. Podstawowe analizy statystyczne
 5. Wizualizacja danych w R
@@ -33,10 +33,10 @@ To jest strona kursu Analiza Danych w R
 - Manipulacja danymi
 - Wprowadzenie do grafiki w R
 3. Praca z różnymi źródłami danych.
-4. Analiza indywidualnych zmiennych.
+4. Analiza jednowymiarowa.
 5. Czyszczenie danych. Praca z tekstem i z datami.
 6. Wizualizacja danych w R.
-7. Analiza relacji między zmiennymi.
+7. Analiza dwu- i wielowymiarowa.
 8. Wybór tematów projektów dowolnych. Praca z Gitem i Githubem.
 9. Automatyzacja i raportowanie z użyciem R
 10. Praca nad projektami
