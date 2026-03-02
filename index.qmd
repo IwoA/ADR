@@ -37,8 +37,8 @@ To jest strona kursu Analiza Danych w R
 5. Czyszczenie danych. Praca z tekstem i z datami.
 6. Wizualizacja danych w R.
 7. Analiza dwu- i wielowymiarowa.
-8. Wybór tematów projektów dowolnych. Praca z Gitem i Githubem.
-9. Automatyzacja i raportowanie z użyciem R
+8. Automatyzacja i raportowanie z użyciem R
+9. Wybór tematów projektów dowolnych. Praca z Gitem i Githubem.
 10. Praca nad projektami
 
 ## Projekty
