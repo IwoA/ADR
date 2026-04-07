@@ -11,8 +11,8 @@ To jest strona kursu Analiza Danych w R
 
 1. Anatomia EDA (Exploratory Data Analysis) – czyli jak rozmawiać z danymi
 2. Wstęp do R. R vs Excel
-3. Praca z plikami i pozyskiwanie danych publicznych (Eurostat, GUS, Gapminder, itp.)
 4. Podstawowe analizy statystyczne
+3. Pozyskiwanie danych publicznych (Eurostat, GUS, Gapminder, itp.)
 5. Wizualizacja danych w R
 6. Web scrapping
 7. Quarto - Automatyzacja i raportowanie z użyciem R
