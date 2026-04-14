@@ -15,7 +15,7 @@ To jest strona kursu Analiza Danych w R
 3. Pozyskiwanie danych publicznych (Eurostat, GUS, Gapminder, itp.)
 5. Wizualizacja danych w R
 6. Web scrapping
-7. Quarto - Automatyzacja i raportowanie z użyciem R
+7. Wykorzystanie LLM w analizie danych
 
 
 ### Ćwiczenia
@@ -33,8 +33,8 @@ To jest strona kursu Analiza Danych w R
 - Manipulacja danymi
 - Wprowadzenie do grafiki w R
 3. Praca z różnymi źródłami danych.
-4. Analiza jednowymiarowa.
 5. Czyszczenie danych. Praca z tekstem i z datami.
+4. Analiza jednowymiarowa.
 6. Wizualizacja danych w R.
 7. Analiza dwu- i wielowymiarowa.
 8. Automatyzacja i raportowanie z użyciem R
